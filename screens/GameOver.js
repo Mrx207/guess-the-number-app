@@ -1,5 +1,11 @@
-import { Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function GameOver() {
-  return <Text>Game is Over</Text>;
+  return (
+    <View>
+      <Text>Game is Over</Text>
+    </View>
+  );
 }
+
+const styles = StyleSheet.create({});
